@@ -25,7 +25,7 @@
 
         <div class="contents">
 
-          <h1>Meet the 2016 Mariners</h1>
+          <h1>Meet the 2018 Mariners</h1>
 
           <p>
             One thing is certain: These are not your same old Mariners. After a coaching change and an eventful offseason, Seattle's roster has been through an upheaval. This year, five of the projected starters were not on the team at the beginning of 2015. Meet the projected starters for the M's season opener.</a>
@@ -36,7 +36,7 @@
           <p class="byline">
             <span class="byline-name">Commentary by Scott Hanson</span> &bull;
             <span class="byline-name">Graphics by Rich Boudet</span> &bull;
-            <span class="byline-name">Development by Audrey Carlsen and Nick Eaton</span>
+            <span class="byline-name">Development by Evan Webeck</span>
 
           </p>
 
@@ -82,12 +82,12 @@
             </div>
 
             <table>
-              <% var headers = player.position == "P" ? ["","W-L","ERA","GS","IP","CG","BB","Ks"] : ["","Avg","R","H","HR","RBI","SB","OBP","SLG"];
+              <% var headers = player.position == "P" ? ["","W-L","ERA","GS","IP","CG","BB","K"] : ["","Avg","R","H","HR","RBI","SB","OBP","SLG"];
                 headers.forEach(function(header) { %>
                 <th><%= header %></th>
               <% }); %>
               <tr>
-                <td>2015</td>
+                <td>2017</td>
                 <% player.season.split("|").forEach(function(stat) { %>
                   <td><%= stat %></td>
                 <% }); %>

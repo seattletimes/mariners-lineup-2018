@@ -2,6 +2,9 @@
 require("./lib/social");
 require("./lib/ads");
 
+var paywall = require("./lib/paywall");
+paywall(PAGE_ID_GOES_HERE);
+
 var Share = require("share");
 
 new Share(".share");
@@ -77,8 +80,8 @@ try {
       box.classList.toggle("flip");
     });
   });
-} catch (e) { 
-  /* no touchscreen */ 
+} catch (e) {
+  /* no touchscreen */
   qsa(".close").forEach(function(c) {
     c.classList.remove("show");
   });
