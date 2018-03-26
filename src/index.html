@@ -49,7 +49,7 @@
 
       </header>
 
-    <% json.MarinersLineup2016_Data.sort(function(a, b) { return a.order - b.order }).forEach(function(player, i) { %>
+    <% json.MarinersLineup2018_Data.sort(function(a, b) { return a.order - b.order }).forEach(function(player, i) { %>
       <section class="parallax-play" data-index="<%= i %>">
         <img src="assets/<%= player.image %>" class="fixable">
         <div class="description pointer <%= player.overlay %>">
