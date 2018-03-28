@@ -191,7 +191,7 @@
   {
     "order": 10,
     "image": "felix.jpg",
-    "overlay": "left",
+    "overlay": "right",
     "name": "Felix Hernandez",
     "number": 34,
     "position": "SP",
