@@ -2,6 +2,9 @@
 require("./lib/social");
 require("./lib/ads");
 
+var paywall = require("./lib/paywall");
+paywall(10767521);
+
 var Share = require("share");
 
 new Share(".share");
