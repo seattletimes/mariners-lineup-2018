@@ -36,7 +36,7 @@
           <p class="byline">
             <span class="byline-name">Commentary by Scott Hanson</span> &bull;
             <span class="byline-name">Graphics by Rich Boudet</span> &bull;
-            <span class="byline-name">Development by Evan Webeck</span>
+            <span class="byline-name">Production by Evan Webeck</span>
 
           </p>
 
@@ -79,7 +79,7 @@
             </div>
 
             <table>
-              <% var headers = player.position == "P" ? ["","W-L","ERA","GS","IP","CG","BB","K"] : ["","Avg","R","H","HR","RBI","SB","OBP","SLG"];
+              <% var headers = player.position == "SP" ? ["","W-L","ERA","GS","IP","CG","BB","K"] : ["","Avg","R","H","HR","RBI","SB","OBP","SLG"];
                 headers.forEach(function(header) { %>
                 <th><%= header %></th>
               <% }); %>
